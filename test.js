@@ -1,5 +1,5 @@
 console.log(window.document.cookie)
-const cookieString = window.document.cookie
+var cookieString = window.document.cookie
 var cookieArray = cookieString.split(/\s*;\s*/);
 var cookieObject = {};
 for (var i = 0; i < cookieArray.length; i++) {
